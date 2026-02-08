@@ -1,33 +1,32 @@
 -- Edit here to change the scheme globally.
-
 local P = {
-	bg = "#11141c",
-	bg2 = "#161a25",
-	bg3 = "#212739",
-	bg4 = "#141928",
+	bg = "#141414",
+	bg2 = "#1a1a1a",
+	bg3 = "#222222",
+	bg4 = "#101010",
 
-	fg = "#98bac8",
-	fg2 = "#9ebad3",
-	fg3 = "#9a9a9a",
-	fg4 = "#1184ff",
+	fg = "#e6d5c3",
+	fg2 = "#f0e0cf",
+	fg3 = "#b8a999",
+	fg4 = "#d09569",
 
-	ln = "#414141",
+	ln = "#3a332c",
 
-	keyword = "#32a3ff",
-	builtin = "#cea32b",
-	const = "#50d0ff",
-	comment = "#728099",
-	docstring = "#5c88af",
-	func = "#32a3ff",
-	str = "#78d06d",
-	type = "#a4d9ec",
-	btype = "#d7a86b",
-	var = "#bec1ab",
-	warning = "#da7269",
-	warning2 = "#ff8800",
-	special = "#63b6ff",
-	special2 = "#a3a3d1",
-	git = "#95d380"
+	keyword = "#c47c4a",
+	builtin = "#e0b276",
+	const = "#6fa8a3",
+	comment = "#7a746d",
+	docstring = "#b88b6a",
+	func = "#f0a35e",
+	str = "#9ccc7a",
+	type = "#e8cfae",
+	btype = "#c89b5a",
+	var = "#d4c8b8",
+	warning = "#f36558",
+	warning2 = "#ffbd4c",
+	special = "#e6b980",
+	special2 = "#cfa18d",
+	git = "#a6d189",
 }
 
 return P

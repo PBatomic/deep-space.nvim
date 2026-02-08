@@ -1,25 +1,15 @@
-# Magic City Club theme
+# Deep Space theme
 
-Simple neovim theme.
+Simple Neovim theme. Works OK with most of lazyvim default plugins. 
 
 ## Installation
 
 Just use your favorite plugin manager, for example with lazy nvim:
 
 ```lua
- {"pbatomic/magic-city-club-nvim"}
+ {"pbatomic/deep-space.nvim"}
 ```
 
-## Screenshots
+## Screenshot
 
-### Lua
-
-![Magic City Club theme](imgs/01.png)
-
-### Go
-
-![Magic City Club theme](imgs/03.png)
-
-### Python
-
-![Magic City Club theme](imgs/02.png)
+![lua](imgs/scr.png)
