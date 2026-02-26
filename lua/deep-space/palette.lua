@@ -1,8 +1,8 @@
 -- Edit here to change the scheme globally.
 local P = {
-	bg = "#141414",
-	bg2 = "#1a1a1a",
-	bg3 = "#222222",
+	bg = "#1f1f1f",
+	bg2 = "#2a2a2a",
+	bg3 = "#333333",
 	bg4 = "#777777",
 
 	fg = "#e6d5c3",

@@ -21,7 +21,7 @@ function M.apply(p)
 	set_hl("CursorColumn", { bg = p.bg2 })
 	set_hl("CursorLineNr", { fg = p.fg, bg = p.bg2, bold = true })
 	set_hl("LineNr", { fg = p.ln, bg = p.bg, bold = true })
-	set_hl("CursorLineNr", {fg = p.keyword, bg = p.bg, bold = true})
+	set_hl("CursorLineNr", { fg = p.keyword, bg = p.bg, bold = true })
 	set_hl("SignColumn", { fg = p.fg3, bg = p.bg })
 	set_hl("Visual", { bg = p.bg3 })
 	set_hl("Search", { fg = p.bg, bg = p.keyword, bold = true })
@@ -178,6 +178,9 @@ function M.apply(p)
 	set_hl("TelescopeSelection", { fg = p.fg, bg = p.bg3, bold = true })
 
 	-- Neo-tree
+	set_hl("NeoTreeTitleBar", { fg = p.special, bg = p.bg })
+	set_hl("NeoTreeFloatTitle", { fg = p.special, bg = p.bg })
+	set_hl("NeoTreeBufferNumber", { fg = p.special, bg = p.bg })
 	set_hl("NeoTreeNormal", { fg = p.fg, bg = p.bg })
 	set_hl("NeoTreeEndOfBuffer", { fg = p.bg2, bg = p.bg })
 	set_hl("NeoTreeRootName", { fg = p.keyword, bold = true })
@@ -196,6 +199,11 @@ function M.apply(p)
 	-- Snacks dashboard
 	set_hl("DashboardHeader", { fg = p.keyword, bold = true })
 	set_hl("DashboardCenter", { fg = p.fg })
+
+	-- Snacks picker
+	set_hl("SnacksPicker", { fg = p.fg, bg = p.bg })
+	set_hl("SnacksPickerNormal", { fg = p.fg, bg = p.bg })
+	set_hl("SnacksPickerBorder", { fg = p.func, bg = p.bg })
 
 	-- Terminal colors
 	vim.g.terminal_color_0 = p.bg4
