@@ -204,8 +204,12 @@ function M.apply(p)
 	set_hl("SnacksPicker", { fg = p.fg, bg = p.bg })
 	set_hl("SnacksPickerNormal", { fg = p.fg, bg = p.bg })
 	set_hl("SnacksPickerBorder", { fg = p.func, bg = p.bg })
+	set_hl("SnacksNormal", { fg = p.fg, bg = p.bg })
 
 	-- Terminal colors
+	set_hl("SnacksTerminalNormal", { fg = p.fg, bg = p.bg })
+	set_hl("SnacksTerminalBorder", { fg = p.bg3, bg = p.bg })
+
 	vim.g.terminal_color_0 = p.bg4
 	vim.g.terminal_color_1 = p.warning
 	vim.g.terminal_color_2 = p.builtin
@@ -222,6 +226,7 @@ function M.apply(p)
 	vim.g.terminal_color_13 = p.const
 	vim.g.terminal_color_14 = p.fg2
 	vim.g.terminal_color_15 = p.fg
+	-- Force terminal windows to use Normal bg
 end
 
 return M
